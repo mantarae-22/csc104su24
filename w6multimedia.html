@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 6 Multimedia</title>
+    <!-- External styles -->
+    <link rel="stylesheet" href="main.css">
+
+    <!-- Embedded Style -->
+    <style>
+        body{
+            background-image: url('images/cristofer-maximilian-uQDRDqpYJHI-unsplash.jpg');
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            background-color: rgb(55, 13, 85);
+        }
+
+        p{
+            font-weight: bold;
+            font-size: 13pt;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
+        .imgStyles{
+            width: 300px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Add a header to our page -->
+    <header>
+        <!-- the h1 tag will display the page title; there should be 1 and only 1 h1 tag on a page -->
+        <h1>Multimedia Examples</h1>
+    </header>
+
+    <main>
+        <p>CSS was first proposed as a standard by the W3C in 1996</p>
+
+        <!-- Audio file to our page -->
+        <audio controls>
+            <source src="Crisp_Ocean_Waves-Mike_Koenig-1486046376.mp3" type="audio/mp3">
+        </audio>
+
+        <!-- add Video file to our page -->
+        <video controls width="320" height="240">
+            <source src="videofile.mp4" type="video/mp4">
+        </video>
+
+        <!-- add an image with the img tag; always include the alternate text for when the image can't load or a screen reader is being used -->
+        <!-- TODO: resize image later -->
+        <!-- inline styles - style tag on the element -->
+        <img src="images/benjamin-voros-AD6rn3vqG7o-unsplash.jpg" alt="beach" class="imgStyles" style="height: 200;">
+
+        <img src="images/camille-minouflet-d7M5Xramf8g-unsplash.jpg" alt="beach" class="imgStyles">
+    </main>
+    
+    
+</body>
+</html>
